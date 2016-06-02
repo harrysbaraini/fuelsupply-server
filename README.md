@@ -1,30 +1,25 @@
-# DACS2016 - Go Lang
+# FuelSupply - Server
 
-Material para aulas de Design e Arquitetura de Software, do curso de Engenharia de Software da **UNIVILLE**, 2016.
-Este material é desenvolvido em [Go](https://golang.org/) e é baseado no conteúdo em JAVA aplicado nas aulas.
+FuelSupply is a simple Go API to manage fuel supplies. It's developed for a Go + Gin + VueJS tutorial.
 
-### Usando...
+### Getting it
 
-Para utilizar este código, instale a [Go](https://golang.org/dl/) de acordo com seu sistema operacional,
-instale o pacote [**godep**](https://github.com/tools/godep):
+Install [Go](https://golang.org/dl/) according to your OS, then install the [**godep**](https://github.com/tools/godep) package:
 
 ```
 $ go get github.com/tools/godep
 ```
 
-Clone este repositório em ```$GOPATH/src``` e execute o comando a seguir (de dentro da pasta raíz do projeto clonado):
+Clone this repo in your ```$GOPATH/src/{whatever_you_want}``` and run the following command (on your new directory):
 
 ```
 godep restore
 ```
 
-### Executando
+### Running it
 
-De dentro da pasta raíz do projeto clonado, execute:
+On your cloned directory, it's simple as:
 
 ```
 go run main.go
 ```
-
-Usando **curl** ou algum aplicativo para teste de API (**Postman** altamente recomendado), envie requisições
-para os endpoints (*Ao executar o comando acima, na janela do terminal será listado todos os endpoints*).

@@ -1,7 +1,7 @@
 package system
 
 import (
-	"harrysbaraini/monoedit/models"
+	"harrysbaraini/fuelsupply/models"
 
 	"github.com/jinzhu/gorm"
 	// Import sqlite dialect
@@ -23,5 +23,5 @@ func init() {
 
 	DB = db
 
-	DB.AutoMigrate(models.Product{})
+	DB.AutoMigrate(models.Supply{})
 }
